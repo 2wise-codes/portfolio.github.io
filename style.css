@@ -1,0 +1,263 @@
+:root {
+    --theme-blue: rgba(0, 81, 255, 0.988);
+    --dark-blue: rgba(12, 18, 54, 0.959);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: var(--dark-blue);
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+header nav {
+    background-color: var(--dark-blue);
+    position: sticky !important;
+    top: 0 !important;
+}
+
+.nav-btn-container .btn {
+    transition: all .2s ease-in-out;
+    background-color: var(--theme-blue);
+}
+
+.nav-btn-container .btn:hover {
+    background-color: rgba(12, 49, 255, 0.925);
+    transform: scale(1.02);
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.bg-blue {
+    background-color: var(--theme-blue);
+    color: whitesmoke;
+}
+
+.bg-dark-blue {
+    background-color: rgba(6, 9, 27, 0.506) !important;
+}
+
+.navbar-brand {
+    letter-spacing: -2px;
+    color: rgb(255, 255, 255) !important;
+}
+
+nav span {
+    color: rgba(0, 115, 255, 0.988);
+}
+
+.sec-one {
+    background-color: var(--dark-blue);
+    color: rgba(245, 245, 245, 0.911);
+}
+
+.sec-one img {
+    border: 3px solid rgba(255, 228, 196, 0.096);
+    border-radius: 20px;
+    background-color: rgba(0, 153, 255, 0.068);
+}
+
+.sec-one .container .row div h1 {
+    font-size: 3.3rem;
+}
+
+.sec-one p {
+    line-height: 28px;
+    font-size: 1.2rem;
+}
+
+.sec-one .container .row div button {
+
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.925) !important;
+    font-size: 1.1rem !important;
+    transition: transform 200ms ease-out, color 200ms ease-out !important;
+}
+
+.nav-link:hover {
+    transform: translateY(-3px) !important;
+    color: rgb(161, 199, 255) !important;
+}
+
+.sec-two {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.248);
+    background-color: rgb(244, 252, 255);
+}
+
+.sec-two img {
+    border: 10px groove rgba(0, 89, 253, 0.719);
+    border-radius: 20px;
+}
+
+.why-me-box {
+    background-color: rgb(253, 253, 253);
+
+}
+
+.why-me-box p {
+    border: 1px solid rgba(0, 0, 0, 0.145);
+    border-radius: 6px;
+    background-color: rgba(25, 38, 112, 0.914);
+    color: whitesmoke;
+    transition: box-shadow .5s ease;
+}
+
+.why-me-box p:hover {
+    box-shadow: rgb(33, 66, 255) 1px 1px 2px 2px;
+
+}
+
+.skills {
+    background-color: rgba(191, 220, 255, 0.694);
+}
+
+.skills h1 {
+    color: rgba(0, 0, 0, 0.775);
+}
+
+
+.skills .card {
+    border: none;
+}
+
+.skills .card:hover {
+    cursor: pointer;
+}
+
+.skills .card-header {
+    background-color: var(--dark-blue);
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.skills i {
+    color: var(--dark-blue);
+}
+
+.sec-two .container .row div p {
+    font-size: 1.1rem;
+}
+
+.sec-three {
+    background-color: var(--dark-blue);
+}
+
+.sec-four {
+    background-color: rgba(0, 76, 255, 0.649);
+}
+
+.sec-four-child {
+    background-color: rgb(240, 248, 255);
+    border-radius: 20px;
+}
+
+.sec-four img {
+    transition: transform .4s ease-out;
+}
+
+.sec-four img:hover {
+    transform: scale(1.04);
+}
+
+.glow-btns {
+    transition: transform .5s ease, box-shadow .8s ease, background-color .5s ease;
+}
+
+.card-glow {
+    transition: transform .5s ease, box-shadow .5s ease, background-color .5s ease;
+}
+
+.card-glow:hover {
+    box-shadow: rgb(0, 119, 255) 1px 1px 2px 2px;
+    transform: scale(1.03);
+}
+
+.glow-btns:hover {
+    box-shadow: var(--theme-blue) 1px 1px 2px 2px;
+    background-color: rgb(0, 21, 255);
+    color: whitesmoke;
+    transform: scale(1.04);
+}
+
+.sec-contact p {
+    font-size: .8rem;
+}
+
+.sec-contact h1 {
+    color: var(--dark-blue);
+}
+
+.fa-whatsapp {
+    color: rgb(2, 190, 74);
+}
+
+.fa-github {
+    color: rgb(11, 0, 26);
+}
+
+.fa-envelope {
+    color: rgb(29, 82, 255);
+
+}
+
+.sec-contact .btn {
+    background-color: var(--dark-blue);
+    color: beige;
+    transition: all .2s;
+}
+
+.sec-contact .btn:hover {
+    background-color: rgba(16, 29, 95, 0.959);
+    color: beige;
+    transform: scale(1.03);
+}
+
+footer div {
+    background-color: rgba(225, 244, 255, 0.863);
+}
+
+
+
+/* -------------------------*/
+
+@media (max-width:768px) {
+
+
+    .sec-four p {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width:630px) {
+    .sec-one .container .row div h1 {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media (max-width:450px) {
+
+    .sec-two .container .row div p {
+        font-size: .95krem;
+    }
+}
+
+@media (max-width:992px) {
+    .sec-two .row {
+        flex-direction: column-reverse;
+    }
+}
